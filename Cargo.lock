@@ -186,7 +186,7 @@ checksum = "7f202df86484c868dbad7eaa557ef785d5c66295e41b460ef922eca0723b842c"
 [[package]]
 name = "app-bus"
 version = "0.1.0"
-source = "git+https://gitea.gioser.net/sergio/gioser.git#7a412ae2b60e3be40d8b5a53257dc95006ea9f55"
+source = "git+https://gitea.gioser.net/sergio/gioser.git?tag=v0.1.0#692b40336c1e9cb12ab561764d6943cb65905ab3"
 dependencies = [
  "directories",
  "serde",
@@ -609,7 +609,7 @@ dependencies = [
 [[package]]
 name = "card-core"
 version = "0.1.0"
-source = "git+https://gitea.gioser.net/sergio/gioser.git#7a412ae2b60e3be40d8b5a53257dc95006ea9f55"
+source = "git+https://gitea.gioser.net/sergio/gioser.git?tag=v0.1.0#692b40336c1e9cb12ab561764d6943cb65905ab3"
 dependencies = [
  "serde",
  "serde_json",
@@ -635,7 +635,7 @@ dependencies = [
 [[package]]
 name = "card-net"
 version = "0.1.0"
-source = "git+https://gitea.gioser.net/sergio/gioser.git#7a412ae2b60e3be40d8b5a53257dc95006ea9f55"
+source = "git+https://gitea.gioser.net/sergio/gioser.git?tag=v0.1.0#692b40336c1e9cb12ab561764d6943cb65905ab3"
 dependencies = [
  "blake3",
  "futures",
@@ -645,13 +645,12 @@ dependencies = [
  "serde",
  "thiserror 2.0.18",
  "tokio",
- "tracing",
 ]
 
 [[package]]
 name = "cards"
 version = "0.1.0"
-source = "git+https://gitea.gioser.net/sergio/gioser.git#7a412ae2b60e3be40d8b5a53257dc95006ea9f55"
+source = "git+https://gitea.gioser.net/sergio/gioser.git?tag=v0.1.0#692b40336c1e9cb12ab561764d6943cb65905ab3"
 dependencies = [
  "anyhow",
  "card-core",
@@ -661,7 +660,6 @@ dependencies = [
  "serde",
  "serde_json",
  "thiserror 2.0.18",
- "ulid",
 ]
 
 [[package]]
@@ -715,7 +713,7 @@ dependencies = [
 [[package]]
 name = "chasqui-card"
 version = "0.1.0"
-source = "git+https://gitea.gioser.net/sergio/gioser.git#7a412ae2b60e3be40d8b5a53257dc95006ea9f55"
+source = "git+https://gitea.gioser.net/sergio/gioser.git?tag=v0.1.0#692b40336c1e9cb12ab561764d6943cb65905ab3"
 dependencies = [
  "card-core",
  "serde",
@@ -3063,7 +3061,7 @@ checksum = "11d3d7f243d5c5a8b9bb5d6dd2b1602c0cb0b9db1621bafc7ed66e35ff9fe092"
 [[package]]
 name = "llimphi-compositor"
 version = "0.1.0"
-source = "git+https://gitea.gioser.net/sergio/gioser.git#7a412ae2b60e3be40d8b5a53257dc95006ea9f55"
+source = "git+https://gitea.gioser.net/sergio/gioser.git?tag=v0.1.0#692b40336c1e9cb12ab561764d6943cb65905ab3"
 dependencies = [
  "llimphi-layout",
  "llimphi-text",
@@ -3074,7 +3072,7 @@ dependencies = [
 [[package]]
 name = "llimphi-hal"
 version = "0.1.0"
-source = "git+https://gitea.gioser.net/sergio/gioser.git#7a412ae2b60e3be40d8b5a53257dc95006ea9f55"
+source = "git+https://gitea.gioser.net/sergio/gioser.git?tag=v0.1.0#692b40336c1e9cb12ab561764d6943cb65905ab3"
 dependencies = [
  "pollster",
  "raw-window-handle",
@@ -3085,7 +3083,7 @@ dependencies = [
 [[package]]
 name = "llimphi-layout"
 version = "0.1.0"
-source = "git+https://gitea.gioser.net/sergio/gioser.git#7a412ae2b60e3be40d8b5a53257dc95006ea9f55"
+source = "git+https://gitea.gioser.net/sergio/gioser.git?tag=v0.1.0#692b40336c1e9cb12ab561764d6943cb65905ab3"
 dependencies = [
  "taffy",
 ]
@@ -3093,7 +3091,7 @@ dependencies = [
 [[package]]
 name = "llimphi-motion"
 version = "0.1.0"
-source = "git+https://gitea.gioser.net/sergio/gioser.git#7a412ae2b60e3be40d8b5a53257dc95006ea9f55"
+source = "git+https://gitea.gioser.net/sergio/gioser.git?tag=v0.1.0#692b40336c1e9cb12ab561764d6943cb65905ab3"
 dependencies = [
  "llimphi-theme",
  "llimphi-ui",
@@ -3102,7 +3100,7 @@ dependencies = [
 [[package]]
 name = "llimphi-raster"
 version = "0.1.0"
-source = "git+https://gitea.gioser.net/sergio/gioser.git#7a412ae2b60e3be40d8b5a53257dc95006ea9f55"
+source = "git+https://gitea.gioser.net/sergio/gioser.git?tag=v0.1.0#692b40336c1e9cb12ab561764d6943cb65905ab3"
 dependencies = [
  "llimphi-hal",
  "pollster",
@@ -3112,7 +3110,7 @@ dependencies = [
 [[package]]
 name = "llimphi-text"
 version = "0.1.0"
-source = "git+https://gitea.gioser.net/sergio/gioser.git#7a412ae2b60e3be40d8b5a53257dc95006ea9f55"
+source = "git+https://gitea.gioser.net/sergio/gioser.git?tag=v0.1.0#692b40336c1e9cb12ab561764d6943cb65905ab3"
 dependencies = [
  "parley",
  "vello",
@@ -3121,7 +3119,7 @@ dependencies = [
 [[package]]
 name = "llimphi-theme"
 version = "0.1.0"
-source = "git+https://gitea.gioser.net/sergio/gioser.git#7a412ae2b60e3be40d8b5a53257dc95006ea9f55"
+source = "git+https://gitea.gioser.net/sergio/gioser.git?tag=v0.1.0#692b40336c1e9cb12ab561764d6943cb65905ab3"
 dependencies = [
  "llimphi-raster",
 ]
@@ -3129,7 +3127,7 @@ dependencies = [
 [[package]]
 name = "llimphi-ui"
 version = "0.1.0"
-source = "git+https://gitea.gioser.net/sergio/gioser.git#7a412ae2b60e3be40d8b5a53257dc95006ea9f55"
+source = "git+https://gitea.gioser.net/sergio/gioser.git?tag=v0.1.0#692b40336c1e9cb12ab561764d6943cb65905ab3"
 dependencies = [
  "llimphi-compositor",
  "llimphi-hal",
@@ -3142,7 +3140,7 @@ dependencies = [
 [[package]]
 name = "llimphi-widget-app-header"
 version = "0.1.0"
-source = "git+https://gitea.gioser.net/sergio/gioser.git#7a412ae2b60e3be40d8b5a53257dc95006ea9f55"
+source = "git+https://gitea.gioser.net/sergio/gioser.git?tag=v0.1.0#692b40336c1e9cb12ab561764d6943cb65905ab3"
 dependencies = [
  "llimphi-theme",
  "llimphi-ui",
@@ -3152,7 +3150,7 @@ dependencies = [
 [[package]]
 name = "llimphi-widget-banner"
 version = "0.1.0"
-source = "git+https://gitea.gioser.net/sergio/gioser.git#7a412ae2b60e3be40d8b5a53257dc95006ea9f55"
+source = "git+https://gitea.gioser.net/sergio/gioser.git?tag=v0.1.0#692b40336c1e9cb12ab561764d6943cb65905ab3"
 dependencies = [
  "llimphi-ui",
 ]
@@ -3160,7 +3158,7 @@ dependencies = [
 [[package]]
 name = "llimphi-widget-button"
 version = "0.1.0"
-source = "git+https://gitea.gioser.net/sergio/gioser.git#7a412ae2b60e3be40d8b5a53257dc95006ea9f55"
+source = "git+https://gitea.gioser.net/sergio/gioser.git?tag=v0.1.0#692b40336c1e9cb12ab561764d6943cb65905ab3"
 dependencies = [
  "llimphi-theme",
  "llimphi-ui",
@@ -3169,7 +3167,7 @@ dependencies = [
 [[package]]
 name = "llimphi-widget-card"
 version = "0.1.0"
-source = "git+https://gitea.gioser.net/sergio/gioser.git#7a412ae2b60e3be40d8b5a53257dc95006ea9f55"
+source = "git+https://gitea.gioser.net/sergio/gioser.git?tag=v0.1.0#692b40336c1e9cb12ab561764d6943cb65905ab3"
 dependencies = [
  "llimphi-theme",
  "llimphi-ui",
@@ -3179,7 +3177,7 @@ dependencies = [
 [[package]]
 name = "llimphi-widget-context-menu"
 version = "0.1.0"
-source = "git+https://gitea.gioser.net/sergio/gioser.git#7a412ae2b60e3be40d8b5a53257dc95006ea9f55"
+source = "git+https://gitea.gioser.net/sergio/gioser.git?tag=v0.1.0#692b40336c1e9cb12ab561764d6943cb65905ab3"
 dependencies = [
  "llimphi-theme",
  "llimphi-ui",
@@ -3189,7 +3187,7 @@ dependencies = [
 [[package]]
 name = "llimphi-widget-menubar"
 version = "0.1.0"
-source = "git+https://gitea.gioser.net/sergio/gioser.git#7a412ae2b60e3be40d8b5a53257dc95006ea9f55"
+source = "git+https://gitea.gioser.net/sergio/gioser.git?tag=v0.1.0#692b40336c1e9cb12ab561764d6943cb65905ab3"
 dependencies = [
  "app-bus",
  "llimphi-theme",
@@ -3201,7 +3199,7 @@ dependencies = [
 [[package]]
 name = "llimphi-widget-panel"
 version = "0.1.0"
-source = "git+https://gitea.gioser.net/sergio/gioser.git#7a412ae2b60e3be40d8b5a53257dc95006ea9f55"
+source = "git+https://gitea.gioser.net/sergio/gioser.git?tag=v0.1.0#692b40336c1e9cb12ab561764d6943cb65905ab3"
 dependencies = [
  "llimphi-theme",
  "llimphi-ui",
@@ -3210,7 +3208,7 @@ dependencies = [
 [[package]]
 name = "llimphi-widget-stat-card"
 version = "0.1.0"
-source = "git+https://gitea.gioser.net/sergio/gioser.git#7a412ae2b60e3be40d8b5a53257dc95006ea9f55"
+source = "git+https://gitea.gioser.net/sergio/gioser.git?tag=v0.1.0#692b40336c1e9cb12ab561764d6943cb65905ab3"
 dependencies = [
  "llimphi-theme",
  "llimphi-ui",
@@ -3657,7 +3655,7 @@ dependencies = [
 [[package]]
 name = "nahual-meta-schema"
 version = "0.1.0"
-source = "git+https://gitea.gioser.net/sergio/gioser.git#7a412ae2b60e3be40d8b5a53257dc95006ea9f55"
+source = "git+https://gitea.gioser.net/sergio/gioser.git?tag=v0.1.0#692b40336c1e9cb12ab561764d6943cb65905ab3"
 dependencies = [
  "serde",
  "serde_json",
@@ -5036,7 +5034,7 @@ checksum = "1e061d1b48cb8d38042de4ae0a7a6401009d6143dc80d2e2d6f31f0bdd6470c7"
 [[package]]
 name = "rimay-localize"
 version = "0.1.0"
-source = "git+https://gitea.gioser.net/sergio/gioser.git#7a412ae2b60e3be40d8b5a53257dc95006ea9f55"
+source = "git+https://gitea.gioser.net/sergio/gioser.git?tag=v0.1.0#692b40336c1e9cb12ab561764d6943cb65905ab3"
 dependencies = [
  "fluent-bundle",
  "once_cell",
@@ -6674,7 +6672,7 @@ dependencies = [
 [[package]]
 name = "wawa-config"
 version = "0.1.0"
-source = "git+https://gitea.gioser.net/sergio/gioser.git#7a412ae2b60e3be40d8b5a53257dc95006ea9f55"
+source = "git+https://gitea.gioser.net/sergio/gioser.git?tag=v0.1.0#692b40336c1e9cb12ab561764d6943cb65905ab3"
 dependencies = [
  "directories",
  "notify",
